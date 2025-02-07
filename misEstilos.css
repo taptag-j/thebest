@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+/* COMMONS */
+body {
+    font-family: Montserrat;
+    font-size: 16px;
+    background-color: #ff4200;
+}
+h1 {
+    color: white;
+    font-family: "Bebas Neue", serif;
+    font-weight: 1;
+    font-style: normal;
+    font-size: 40px;
+}
+a {
+    text-decoration: none;
+}
+p {
+    color: white;
+    font-family: "Bebas Neue", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 30px;
+}
+section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+/* HEADER*/
+section.header {
+    text-align: center;
+}
+section.header img {
+    max-width: 170px;
+    border-radius: 50%;  
+    box-shadow: 0 0 8px 1px lightblue; 
+}
+
+
+/*LINKS*/
+section.link .linkitem {
+    width: 100%;
+    margin-bottom: 16px;
+}
+section.link .linkitem a {
+    display: block;
+    width: 100%;
+    border: 1px #000 solid;
+    padding: 16px 0;
+    text-align:center ;
+    color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0px 0px #000;
+    background-color: #2b2b2b;
+}
+/* 
+colores recuadros
+#2b2b2b gris
+#007549 verde
+ */
+section.link .linkitem  a:hover {
+     animation: shake 0.15s infinite;
+     background-color: rgb(255, 255, 255);
+     color: black;
+}
+@keyframes shake {
+    0% {
+        transform: translateX(-0px);
+    }
+}
+.bi{
+    font-size: 17px;
+    margin-right: 5px;
+}
+.bi-facebook:hover {
+    color: blue;
+}
+.bi-whatsapp:hover {
+    color: green;
+}
+.bi-instagram:hover {
+    color: red;
+}
+/*FOOTER*/
+footer a {
+    color: rgb(0 , 0 , 0,0.5);
+}
