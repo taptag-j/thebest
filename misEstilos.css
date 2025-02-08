@@ -4,7 +4,7 @@
 body {
     font-family: Montserrat;
     font-size: 16px;
-    background-color: #ff4200;
+    background-color: #000000;
 }
 h1 {
     color: white;
@@ -55,10 +55,10 @@ section.link .linkitem a {
     border: 1px #000 solid;
     padding: 16px 0;
     text-align:center ;
-    color: #f9f9f9;
+    color: #000000;
     border-radius: 12px;
     box-shadow: 0px 0px #000;
-    background-color: #2b2b2b;
+    background-color: #ffffff;
 }
 /* 
 colores recuadros
@@ -90,5 +90,5 @@ section.link .linkitem  a:hover {
 }
 /*FOOTER*/
 footer a {
-    color: rgb(0 , 0 , 0,0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
